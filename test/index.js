@@ -3,8 +3,8 @@
 var P2PSpider = require('../lib');
 
 var p2p = P2PSpider({
-    nodesMaxSize: 200,   // be careful
-    maxConnections: 400, // be careful
+    nodesMaxSize: 20,   // be careful
+    maxConnections: 40, // be careful
     timeout: 5000
 });
 
